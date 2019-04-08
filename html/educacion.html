@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de vida Steban Giraldo</title>
+  </head>
+  <body>
+    <header>
+      <!-- Imagen SVG con el logo de la hoja de vida -->
+      <svg width="300" height="200">
+        <image width="250" height="200" xlink:href="../images/icon.svg" />
+      </svg>
+
+      <h1>Hoja de vida</h1>
+    </header>
+
+    <!-- Datos personales de la hoja de vida -->
+    <h2>Luis Steban Giraldo Vásquez.</h2>
+    <h3>08 de Octubre de 1995, Cali Colombia.</h3>
+
+    <!-- Enlaces de menú básico -->
+    <p> <a href="../index.html">Inicio</a> | <a href="../html/educacion.html">Educación</a> | <a href="../html/experiencia.html">Experiencia</a> </p>
+
+    <h2>Educación</h2>
+
+    <!-- Tabla de estudios -->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2006</td>
+          <td>Escuela Tulio Raffo</td>
+          <td>Palmira, Valle</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>IEGEM</td>
+          <td>Bello, Antioquia</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>Sena</td>
+          <td>Medellín, Antioquia</td>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Formulario para agregar estudios -->
+    <form>
+      <legend><h3><strong>Agregar estudios</strong></h3></legend>
+
+      <p>
+        <label for="año">Año:</label>
+        <select class="año" name="año">
+          <option value="">2016</option>
+          <option value="">2017</option>
+          <option value="">2018</option>
+          <option value="">2019</option>
+        </select>
+      </p>
+      <p>
+        <label for="institucion">Institución:</label>
+        <input type="text" name="institucion" value="">
+      </p>
+      <p>
+        <label for="lugar">Lugar:</label>
+        <textarea name="lugar" rows="4" cols="40"></textarea>
+      </p>
+
+      <input type="submit" name="Enviar" value="Enviar">
+    </form>
+
+    <hr>
+    <footer>
+      <p><a href="mailto:steban_810@hotmail.com?subject=Contacto laboral">Correo de contacto</a> | Teléfono(s): 300 660 4276</p>
+    </footer>
+
+  </body>
+</html>
